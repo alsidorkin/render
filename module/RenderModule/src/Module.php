@@ -6,8 +6,6 @@ namespace RenderModule;
 
 /**
  * Class Module
- *
- * Основной класс модуля.
  */
 class Module
 {
