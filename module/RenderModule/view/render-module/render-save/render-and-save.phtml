@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render and Save Result</title>
+</head>
+<body>
+<h1>Render and Save</h1>
+
+<?php if (isset($message)) : ?>
+    <p><?= $this->escapeHtml($message); ?></p>
+<?php else : ?>
+    <p>No message provided.</p>
+<?php endif; ?>
+</body>
+</html>
